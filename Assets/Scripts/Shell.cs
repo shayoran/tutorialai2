@@ -33,12 +33,13 @@ public class Shell : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        acceleration = force / mass;
+        /*acceleration = force / mass;
         speedZ += acceleration * Time.deltaTime;
         gAccel = gravity / mass;
         speedY += gAccel * Time.deltaTime;
-        this.transform.Translate(0, speedY, speedZ);
+        this.transform.Translate(0, speedY, speedZ);*/
 
         force = 0;
+        this.transform.forward = rb.velocity;
     }
 }

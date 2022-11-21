@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 448084712022544204}
   - component: {fileID: 6477772787162314932}
   - component: {fileID: 3715026850885279323}
-  - component: {fileID: 8987632151958128708}
+  - component: {fileID: 8702622504363459975}
   m_Layer: 0
   m_Name: blue agent
   m_TagString: Untagged
@@ -122,7 +122,7 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &8987632151958128708
+--- !u!114 &8702622504363459975
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,4 +134,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f15b0204228e4dc43a07b062c4613872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 64115925629250490, guid: 155aa5b6b29da164a933907e0caeaa87, type: 3}
+  goal: {fileID: 0}

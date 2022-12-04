@@ -1,7 +1,5 @@
-using System.Collections;   
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using System.Linq;
 
 public class Node {
 
@@ -90,7 +88,7 @@ public class GPlanner {
         bool foundPath = false;
         foreach (GAction action in usableActions) {
 
-            if (action.IsAchievableGiven(parent.state)) {
+            if (action.IsAhievableGiven(parent.state)) {
 
                 Dictionary<string, int> currentState = new Dictionary<string, int>(parent.state);
 
@@ -147,6 +145,5 @@ public class GPlanner {
             }
         }
         return true;
-
     }
 }

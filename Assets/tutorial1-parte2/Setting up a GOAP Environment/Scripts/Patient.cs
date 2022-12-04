@@ -1,4 +1,5 @@
-﻿public class Patient : GAgent {
+﻿namespace parte2{
+public class Patient : GAgent {
 
     new void Start() {
         base.Start();
@@ -6,4 +7,5 @@
         goals.Add(s1, 3);
     }
 
+}
 }

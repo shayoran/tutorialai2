@@ -1,4 +1,5 @@
-﻿public sealed class GWorld {
+﻿namespace parte2{
+public sealed class GWorld {
 
     private static readonly GWorld instance = new GWorld();
     private static WorldStates world;
@@ -21,4 +22,5 @@
 
         return world;
     }
+}
 }

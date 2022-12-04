@@ -2,6 +2,7 @@
 using System.Linq;
 using UnityEngine;
 
+namespace parte2{
 public class SubGoal {
 
     // Dictionary to store our goals
@@ -126,4 +127,5 @@ public class GAgent : MonoBehaviour {
             }
         }
     }
+}
 }

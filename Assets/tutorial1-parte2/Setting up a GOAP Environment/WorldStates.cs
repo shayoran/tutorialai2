@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-
+namespace parte2{
 [System.Serializable]
 public class WorldState {
 
@@ -76,4 +76,5 @@ public class WorldStates {
 
         return states;
     }
+}
 }

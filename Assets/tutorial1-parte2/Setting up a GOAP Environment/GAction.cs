@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.AI;
 
+namespace parte2{
 public abstract class GAction : MonoBehaviour {
 
     // Name of the action
@@ -82,4 +83,5 @@ public abstract class GAction : MonoBehaviour {
 
     public abstract bool PrePerform();
     public abstract bool PostPerform();
+}
 }

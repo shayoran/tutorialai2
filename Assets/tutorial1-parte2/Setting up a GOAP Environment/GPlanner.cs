@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
+namespace parte2{
 public class Node {
 
     public Node parent;
@@ -146,4 +147,5 @@ public class GPlanner {
         }
         return true;
     }
+}
 }

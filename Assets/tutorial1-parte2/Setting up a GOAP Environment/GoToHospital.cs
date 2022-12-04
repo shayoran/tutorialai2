@@ -1,9 +1,9 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace parte2{
-public class Register : GAction
+namespace part2 {
+public class GoToHospital : GAction
 {
     public override bool PrePerform()
     {

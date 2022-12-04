@@ -1,4 +1,8 @@
-﻿namespace parte2{
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace part2 {
 public class GoToWaitingRoom : GAction
 {
     public override bool PrePerform()

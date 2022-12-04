@@ -1,8 +1,8 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace parte2{
+namespace part2 {
 public class Spawn : MonoBehaviour
 {
     public GameObject patientPrefab;

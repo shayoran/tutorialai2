@@ -275,6 +275,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nurse
       objectReference: {fileID: 0}
+    - target: {fileID: 4373643844879483040, guid: 51e437be22296b340954bf6591a60065, type: 3}
+      propertyPath: duration
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4373643844879483040, guid: 51e437be22296b340954bf6591a60065, type: 3}
+      propertyPath: targetTag
+      value: Lounge
+      objectReference: {fileID: 0}
+    - target: {fileID: 4373643844879483040, guid: 51e437be22296b340954bf6591a60065, type: 3}
+      propertyPath: actionName
+      value: Rest
+      objectReference: {fileID: 0}
+    - target: {fileID: 4373643844879483040, guid: 51e437be22296b340954bf6591a60065, type: 3}
+      propertyPath: afterEffects.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4373643844879483040, guid: 51e437be22296b340954bf6591a60065, type: 3}
+      propertyPath: preConditions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4373643844879483040, guid: 51e437be22296b340954bf6591a60065, type: 3}
+      propertyPath: afterEffects.Array.data[0].key
+      value: rested
+      objectReference: {fileID: 0}
+    - target: {fileID: 4373643844879483040, guid: 51e437be22296b340954bf6591a60065, type: 3}
+      propertyPath: preConditions.Array.data[0].key
+      value: exhausted
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51e437be22296b340954bf6591a60065, type: 3}
 --- !u!1 &306721101

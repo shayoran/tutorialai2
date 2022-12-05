@@ -1046,6 +1046,7 @@ GameObject:
   - component: {fileID: 156335536}
   - component: {fileID: 2078440892984488657}
   - component: {fileID: 536449587437936644}
+  - component: {fileID: 42817489217059608}
   m_Layer: 0
   m_Name: Nurse
   m_TagString: Untagged
@@ -1128,8 +1129,33 @@ MonoBehaviour:
   - key: FreeCublicle
     value: 1
   afterEffects:
-  - key: treatPatient
+  - key: patientPickedUp
     value: 1
+  agent: {fileID: 0}
+  running: 0
+--- !u!114 &42817489217059608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2618188073631541129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8a7d9955fa97094fb874c5dc3e9ab91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionName: Action
+  cost: 1
+  target: {fileID: 0}
+  targetTag: 
+  duration: 0
+  preConditions:
+  - key: patientPickedUp
+    value: 0
+  afterEffects:
+  - key: treatPatient
+    value: 0
   agent: {fileID: 0}
   running: 0
 --- !u!1 &2629889911763255196

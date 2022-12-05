@@ -1642,6 +1642,7 @@ GameObject:
   - component: {fileID: 8573268354612958774}
   - component: {fileID: 6256531431689442597}
   - component: {fileID: 7695920459714390585}
+  - component: {fileID: 5753150567787821864}
   m_Layer: 0
   m_Name: Patient
   m_TagString: Untagged
@@ -1786,6 +1787,31 @@ MonoBehaviour:
     value: 0
   afterEffects:
   - key: isTreated
+    value: 0
+  agent: {fileID: 0}
+  running: 0
+--- !u!114 &5753150567787821864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3191194391350855714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54eee0d9fd77e9243b50b7cebc0e6bc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionName: Action
+  cost: 1
+  target: {fileID: 0}
+  targetTag: Home
+  duration: 0
+  preConditions:
+  - key: isCured
+    value: 0
+  afterEffects:
+  - key: isHome
     value: 0
   agent: {fileID: 0}
   running: 0

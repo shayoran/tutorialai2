@@ -1117,13 +1117,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6090cf2f73bdae4ebc6fa1d18e71092, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actionName: Action
+  actionName: GetPatient
   cost: 1
   target: {fileID: 0}
   targetTag: 
   duration: 0
-  preConditions: []
-  afterEffects: []
+  preConditions:
+  - key: Waiting
+    value: 1
+  - key: FreeCublicle
+    value: 1
+  afterEffects:
+  - key: treatPatient
+    value: 1
   agent: {fileID: 0}
   running: 0
 --- !u!1 &2629889911763255196

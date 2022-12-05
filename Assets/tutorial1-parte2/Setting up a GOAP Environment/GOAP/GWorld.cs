@@ -34,11 +34,11 @@ public sealed class GWorld
         if(patients.Count == 0) return null;
         return patients.Dequeue();
     }
-    public void AddCubicles(GameObject p)
+    public void AddCubicle(GameObject p)
     {
         cubicles.Enqueue(p);
     }
-    public GameObject RemoveCubicles()
+    public GameObject RemoveCubicle()
     {
         if(cubicles.Count == 0) return null;
         return cubicles.Dequeue();
